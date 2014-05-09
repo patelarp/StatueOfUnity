@@ -1,0 +1,621 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="">
+<!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Statue of Unity"/>
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Vision</title>
+<!-- TemplateEndEditable -->
+<link href="css/boilerplate.css" rel="stylesheet" type="text/css">
+<link href="css/fluid.css" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="images/fevilogo.jpg" />
+<!-- 
+To learn more about the conditional comments around the html tags at the top of the file:
+paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/
+
+Do the following if you're using your customized build of modernizr (http://www.modernizr.com/):
+* insert the link to your js here
+* remove the link below to the html5shiv
+* add the "no-js" class to the html tags at the top
+* you can also remove the link to respond.min.js if you included the MQ Polyfill in your modernizr build 
+-->
+<!--[if lt IE 9]>
+<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+<script src="js/respond.min.js"></script>
+
+<!-- Google Ajax-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+
+<!-- Jquery libary -->
+<script type="text/javascript" src="js/jquery-1.9.1.min.js"> </script>
+<script src="scripts/jquery.js" type="text/javascript"></script>
+<script src="scripts/twitter_search.js" type="text/javascript"></script>
+<script src="YUI/2.8.2r1/build/yahoo-dom-event/yahoo-dom-event.js" type="text/javascript"></script>
+<script src="YUI/2.8.2r1/build/calendar/calendar-min.js" type="text/javascript"></script>
+<script src="jquery-ui-1.7.2/js/jquery-1.3.2.min.js" type="text/javascript"></script>
+<script src="jquery-ui-1.7.2/js/jquery-ui-1.7.2.min.js" type="text/javascript"></script>
+<style type="text/css">
+/* BeginOAWidget_Instance_2125523: #twitter_2 */
+
+		#twitter_2 { height: 200px; width: 300px}
+		
+/* EndOAWidget_Instance_2125523 */
+</style>
+<link href="YUI/2.8.2r1/build/calendar/assets/skins/sam/calendar.css" rel="stylesheet" type="text/css">
+<script type="text/xml">
+<!--
+<oa:widgets>
+  <oa:widget wid="2125523" binding="#twitter_2" />
+  <oa:widget wid="2443523" binding="#OAWidget" />
+  <oa:widget wid="2028523" binding="#jQueryUIAccordion" />
+  <oa:widget wid="2028523" binding="#jQueryUIAccordion_2" />
+</oa:widgets>
+-->
+</script>
+<style type="text/css">
+/* BeginOAWidget_Instance_2443523: #OAWidget */
+
+/* CALENDAR BOUNDING BOX */ 
+.yui-skin-sam #OAWidget { 
+	background-color:#f2f2f2; 
+	border:1px solid #808080; 
+	padding:10px;
+} 
+
+/* TITLE BAR */
+.yui-skin-sam #OAWidget .title {
+	border-bottom:1px solid #cccccc;
+	color:#000;
+}
+
+/* WEEKDAY HEADER ROW */
+.yui-skin-sam #OAWidget .calweekdayrow {
+	height:2em;
+}
+
+/* WEEKDAY (Su, Mo, Tu...) HEADER CELLS */
+.yui-skin-sam #OAWidget .calweekdaycell {
+	color:#000;
+	font-weight:bold;
+}
+
+/* WEEK NUMBERS (ROW HEADERS/FOOTERS) */
+.yui-skin-sam #OAWidget .calrowhead, .yui-skin-sam .yui-calendar .calrowfoot {
+	color:#a6a6a6;
+	font-size:85%;
+	font-style:normal;
+	font-weight:normal;
+}
+
+/* NORMAL CELLS */
+.yui-skin-sam #OAWidget td.calcell {
+	border:1px solid #cccccc;
+	background:#fff;
+	height:1.6em;
+	line-height:1.6em; /* set line height equal to cell height to center vertically */
+}
+
+/* LINK INSIDE NORMAL CELLS */
+.yui-skin-sam #OAWidget td.calcell a {
+	color:#333333;
+}
+
+/* TODAY'S DATE */
+.yui-skin-sam #OAWidget td.calcell.today { 
+	background-color:#000; 
+} 
+.yui-skin-sam #OAWidget td.calcell.today a {
+	background-color:#fff;
+}
+
+/* SELECTED DATE */
+.yui-skin-sam #OAWidget td.calcell.selected a {
+	background-color:#cccccc;
+	color:#000;
+}
+
+/* HOVER DATE */
+.yui-skin-sam #OAWidget td.calcell.calcellhover a {
+	background-color:#666666;
+	color:#fff;
+}
+
+/* CalendarNavigator */
+/* NAVIGATOR MASK */
+.yui-skin-sam #OAWidget .yui-cal-nav-mask {
+	background-color:#000;
+	opacity:0.25;
+	*filter:alpha(opacity=25); /* IE */
+}
+
+/* NAVIGATOR BOUNDING BOX */
+.yui-skin-sam #OAWidget .yui-cal-nav {
+	border:1px solid #808080;
+	background-color:#f2f2f2;
+}
+		
+/* EndOAWidget_Instance_2443523 */
+</style>
+<link href="jquery-ui-1.7.2/css/base/ui.core.css" rel="stylesheet" type="text/css">
+<link href="jquery-ui-1.7.2/css/base/ui.accordion.css" rel="stylesheet" type="text/css">
+<link href="jquery-ui-1.7.2/css/base/ui.theme.css" rel="stylesheet" type="text/css">
+<link href="jquery-ui-1.7.2/css/base/ui.images.css" rel="stylesheet" type="text/css">
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+<style type="text/css">
+/* BeginOAWidget_Instance_2028523: #jQueryUIAccordion */
+
+		
+		#jQueryUIAccordion .ui-widget {
+			font-family: inherit;
+			padding: 20px; 
+		}
+		
+		#jQueryUIAccordion .ui-accordion-header {
+			line-height: 1em;
+			color: #000000;
+			text-decoration: none;
+			font-size:1em;
+			font-weight: bold;
+			font-family: Verdana, Geneva, sans-serif;
+			background-color: #000000;
+			border-color: #000000;
+			border-width: 1px;
+		}
+		
+		#jQueryUIAccordion .ui-accordion-content {
+			font-family: Verdana, Geneva, sans-serif;
+			color: #ffffff;
+			font-size:.6em;
+			background-color: #000000;
+			border-color: #000000;
+			border-width: 1px;
+		}
+		
+		#jQueryUIAccordion .ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited {
+			color: #000000;
+		}
+		
+		/* Active text color */
+		#jQueryUIAccordion .ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited {
+			color: #000000;
+		}
+		
+		/* Active background color */
+		#jQueryUIAccordion .ui-state-active {
+			background-color: #000000;
+		}
+		
+		/* text color when you hover */
+		#jQueryUIAccordion .ui-state-hover a, .ui-state-hover a:hover {
+			color: #000000;
+		}
+		
+		/* background color when you hover */
+		#jQueryUIAccordion .ui-state-hover {
+			background-color: #000000;
+		}
+		
+		/* Corner radius */
+		#jQueryUIAccordion .ui-corner-tl { -moz-border-radius-topleft: 5px; -webkit-border-top-left-radius: 5px; }
+		#jQueryUIAccordion .ui-corner-tr { -moz-border-radius-topright: 5px; -webkit-border-top-right-radius: 5px; }
+		#jQueryUIAccordion .ui-corner-bl { -moz-border-radius-bottomleft: 5px; -webkit-border-bottom-left-radius: 5px; }
+		#jQueryUIAccordion .ui-corner-br { -moz-border-radius-bottomright: 5px; -webkit-border-bottom-right-radius: 5px; }
+		#jQueryUIAccordion .ui-corner-top { -moz-border-radius-topleft: 5px; -webkit-border-top-left-radius: 5px; -moz-border-radius-topright: 5px; -webkit-border-top-right-radius: 5px; }
+		#jQueryUIAccordion .ui-corner-bottom { -moz-border-radius-bottomleft: 5px; -webkit-border-bottom-left-radius: 5px; -moz-border-radius-bottomright: 5px; -webkit-border-bottom-right-radius: 5px; }
+		#jQueryUIAccordion .ui-corner-right {  -moz-border-radius-topright: 5px; -webkit-border-top-right-radius: 5px; -moz-border-radius-bottomright: 5px; -webkit-border-bottom-right-radius: 5px; }
+		#jQueryUIAccordion .ui-corner-left { -moz-border-radius-topleft: 5px; -webkit-border-top-left-radius: 5px; -moz-border-radius-bottomleft: 5px; -webkit-border-bottom-left-radius: 5px; }
+		#jQueryUIAccordion .ui-corner-all { -moz-border-radius: 5px; -webkit-border-radius: 5px; }
+		
+		
+/* EndOAWidget_Instance_2028523 */
+</style>
+<style type="text/css">
+/* BeginOAWidget_Instance_2028523: #jQueryUIAccordion_2 */
+
+		
+		#jQueryUIAccordion_2 .ui-widget {
+			font-family: inherit;
+			padding: 20px; 
+		}
+		
+		#jQueryUIAccordion_2 .ui-accordion-header {
+			line-height: 1em;
+			color: #000000;
+			text-decoration: none;
+			font-size:1em;
+			font-weight: bold;
+			font-family: Verdana, Geneva, sans-serif;
+			background-color: #000000;
+			border-color: #000000;
+			border-width: 1px;
+		}
+		
+		#jQueryUIAccordion_2 .ui-accordion-content {
+			font-family: Verdana, Geneva, sans-serif;
+			color: #ffffff;
+			font-size:.6em;
+			background-color: #000000;
+			border-color: #000000;
+			border-width: 1px;
+		}
+		
+		#jQueryUIAccordion_2 .ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited {
+			color: #000000;
+		}
+		
+		/* Active text color */
+		#jQueryUIAccordion_2 .ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited {
+			color: #000000;
+		}
+		
+		/* Active background color */
+		#jQueryUIAccordion_2 .ui-state-active {
+			background-color: #000000;
+		}
+		
+		/* text color when you hover */
+		#jQueryUIAccordion_2 .ui-state-hover a, .ui-state-hover a:hover {
+			color: #000000;
+		}
+		
+		/* background color when you hover */
+		#jQueryUIAccordion_2 .ui-state-hover {
+			background-color: #000000;
+		}
+		
+		/* Corner radius */
+		#jQueryUIAccordion_2 .ui-corner-tl { -moz-border-radius-topleft: 5px; -webkit-border-top-left-radius: 5px; }
+		#jQueryUIAccordion_2 .ui-corner-tr { -moz-border-radius-topright: 5px; -webkit-border-top-right-radius: 5px; }
+		#jQueryUIAccordion_2 .ui-corner-bl { -moz-border-radius-bottomleft: 5px; -webkit-border-bottom-left-radius: 5px; }
+		#jQueryUIAccordion_2 .ui-corner-br { -moz-border-radius-bottomright: 5px; -webkit-border-bottom-right-radius: 5px; }
+		#jQueryUIAccordion_2 .ui-corner-top { -moz-border-radius-topleft: 5px; -webkit-border-top-left-radius: 5px; -moz-border-radius-topright: 5px; -webkit-border-top-right-radius: 5px; }
+		#jQueryUIAccordion_2 .ui-corner-bottom { -moz-border-radius-bottomleft: 5px; -webkit-border-bottom-left-radius: 5px; -moz-border-radius-bottomright: 5px; -webkit-border-bottom-right-radius: 5px; }
+		#jQueryUIAccordion_2 .ui-corner-right {  -moz-border-radius-topright: 5px; -webkit-border-top-right-radius: 5px; -moz-border-radius-bottomright: 5px; -webkit-border-bottom-right-radius: 5px; }
+		#jQueryUIAccordion_2 .ui-corner-left { -moz-border-radius-topleft: 5px; -webkit-border-top-left-radius: 5px; -moz-border-radius-bottomleft: 5px; -webkit-border-bottom-left-radius: 5px; }
+		#jQueryUIAccordion_2 .ui-corner-all { -moz-border-radius: 5px; -webkit-border-radius: 5px; }
+		
+		
+/* EndOAWidget_Instance_2028523 */
+</style>
+</head>
+<body>
+<div class="gridContainer clearfix">
+  
+  <div id="header">
+    <div id="logo">
+    <img src="images/logo.jpg" alt="logo" title="statuelogo" name="statuelog"/>
+    
+    
+    </div> <!--end of logo-->
+    <div id="banner">
+    
+    <img src="images/statue.jpg" alt="statue" name="banner" width="662" height="250" title="statuebanner" />
+    </div> <!--end of banner-->
+  </div> <!--end of header-->
+  
+  
+  <div id="nav">
+  
+  <div id="menuBarHolder">
+ 
+<ul id="menuBar">
+ 
+<li class="firstchild"><a href="index1.html">HOME</a> </li>
+<li><a href="history.html">HISTORY </a></li>
+<li><a href="vision.html">VISION</a></li>
+<li><a href="project.html">PROJECT</a></li>
+<li><a href="about.html">ABOUT ME</a></li>
+ 
+</ul>
+ 
+</div>
+</div>
+  <div id="f1">
+	<h3>VISION- A Tribute To Sardar</h3>
+	
+	<div>
+		<p>
+		Like many nations of the world, the time has come for Gujarat to pay a befitting tribute to the great men of its soil and immortalize their history. That’s the vision behind building the largest statue of the world to commemorate Sardar Vallabhbhai Patel. It is only in a structure of such enormity that we will be able get close to commemorating the Unity he achieved by winning over a disintegrated and scattered group of 565 princely states.
+
+In the words of Chief Minister Shri Narendra Modi, who announced this ambitious project on the eve of his decade-old tenure in the state government, the Statue of Unity would be one of a series of monuments to “perpetuate the contribution of great personalities”, others being the Mahatma Mandir in Gandhinagar, Shyamji Krishna Verma memorial in Kutch and the Buddha relics as well as the international conference on Buddhism.
+
+Furthermore, Shri Modi has said that the memorial will be a new chapter in the development of the tribal belt in the state as it will open employment opportunities for the local tribal youth and boost tourism in the state. The largest statue of the world would remind every onlooker not only of the freedom struggle but also of the story of a United India. It will be a constant inspiration towards fulfilling the dreams of suraaj (good governance).
+		</p>
+		<p>
+		AN ICONIC 182METERS STATUE that’s a tribute to the Iron Man of India, is to be built at the Sadhu-Bet Island, approximately 3.5kms south of Sardar Sarovar Dam at Kevadia in the Narmada district of Gujarat. This inspiring memorial site, with a number of edu-tainment components, is between the Satpuda and Vindhyachal Ranges rising weir Narmada River, impounded by Garudeshwar, the Sardar  Sarovar Dam and the town of Kevadia. The majesty of this grand monument will be enhanced by a picturesque backdrop. Its unique location will prove to be beneficial for eco-tourism and regional development. 
+		</p>
+		<p>
+		An ardent patriot who was determined to unite 562 princely states with the mainstream India after the British Raj came to an end.
+
+A great administrator who stabilized the volatile condition of a newly freed country.
+
+An illustrious man who led the path of unity and became an eternal icon for the entire nation.
+
+Since the memory of a man who personified the spirit of Indian union must be as inspiring as himself for all future generations, we are creating the STATUE OF UNITY- an eternal embodiment of the life, dreams and accomplishments of Sardar Vallabhbhai Patel, to evoke remembrance and inspiration in the most unique manner possible.
+		</p>
+		<p>
+		Like many nations of the world, the time has come for Gujarat to pay a befitting tribute to the great men of its soil and immortalize their history. That’s the vision behind building the largest statue of the world to commemorate Sardar Vallabhbhai Patel. It is only in a structure of such enormity that we will be able get close to commemorating the Unity he achieved by winning over a disintegrated and scattered group of 565 princely states.
+
+In the words of Chief Minister Shri Narendra Modi, who announced this ambitious project on the eve of his decade-old tenure in the state government, the Statue of Unity would be one of a series of monuments to “perpetuate the contribution of great personalities”, others being the Mahatma Mandir in Gandhinagar, Shyamji Krishna Verma memorial in Kutch and the Buddha relics as well as the international conference on Buddhism.
+
+Furthermore, Shri Modi has said that the memorial will be a new chapter in the development of the tribal belt in the state as it will open employment opportunities for the local tribal youth and boost tourism in the state. The largest statue of the world would remind every onlooker not only of the freedom struggle but also of the story of a United India. It will be a constant inspiration towards fulfilling the dreams of suraaj (good governance).
+		
+		AN ICONIC 182METERS STATUE that’s a tribute to the Iron Man of India, is to be built at the Sadhu-Bet Island, approximately 3.5kms south of Sardar Sarovar Dam at Kevadia in the Narmada district of Gujarat. This inspiring memorial site, with a number of edu-tainment components, is between the Satpuda and Vindhyachal Ranges rising weir Narmada River, impounded by Garudeshwar, the Sardar  Sarovar Dam and the town of Kevadia. The majesty of this grand monument will be enhanced by a picturesque backdrop. Its unique location will prove to be beneficial for eco-tourism and regional development. 
+		
+		An ardent patriot who was determined to unite 562 princely states with the mainstream India after the British Raj came to an end.
+
+A great administrator who stabilized the volatile condition of a newly freed country.
+
+An illustrious man who led the path of unity and became an eternal icon for the entire nation.
+
+Since the memory of a man who personified the spirit of Indian union must be as inspiring as himself for all future generations, we are creating the STATUE OF UNITY- an eternal embodiment of the life, dreams and accomplishments of Sardar Vallabhbhai Patel, to evoke remembrance and inspiration in the most unique manner possible.
+		
+		Like many nations of the world, the time has come for Gujarat to pay a befitting tribute to the great men of its soil and immortalize their history. That’s the vision behind building the largest statue of the world to commemorate Sardar Vallabhbhai Patel. It is only in a structure of such enormity that we will be able get close to commemorating the Unity he achieved by winning over a disintegrated and scattered group of 565 princely states.
+
+In the words of Chief Minister Shri Narendra Modi, who announced this ambitious project on the eve of his decade-old tenure in the state government, the Statue of Unity would be one of a series of monuments to “perpetuate the contribution of great personalities”, others being the Mahatma Mandir in Gandhinagar, Shyamji Krishna Verma memorial in Kutch and the Buddha relics as well as the international conference on Buddhism.
+
+Furthermore, Shri Modi has said that the memorial will be a new chapter in the development of the tribal belt in the state as it will open employment opportunities for the local tribal youth and boost tourism in the state. The largest statue of the world would remind every onlooker not only of the freedom struggle but also of the story of a United India. It will be a constant inspiration towards fulfilling the dreams of suraaj (good governance).
+		</p>
+		<p>
+		AN ICONIC 182METERS STATUE that’s a tribute to the Iron Man of India, is to be built at the Sadhu-Bet Island, approximately 3.5kms south of Sardar Sarovar Dam at Kevadia in the Narmada district of Gujarat. This inspiring memorial site, with a number of edu-tainment components, is between the Satpuda and Vindhyachal Ranges rising weir Narmada River, impounded by Garudeshwar, the Sardar  Sarovar Dam and the town of Kevadia. The majesty of this grand monument will be enhanced by a picturesque backdrop. Its unique location will prove to be beneficial for eco-tourism and regional development. 
+		</p>
+		<p>
+		An ardent patriot who was determined to unite 562 princely states with the mainstream India after the British Raj came to an end.
+
+A great administrator who stabilized the volatile condition of a newly freed country.
+
+An illustrious man who led the path of unity and became an eternal icon for the entire nation.
+
+Since the memory of a man who personified the spirit of Indian union must be as inspiring as himself for all future generations, we are creating the STATUE OF UNITY- an eternal embodiment of the life, dreams and accomplishments of Sardar Vallabhbhai Patel, to evoke remembrance and inspiration in the most unique manner possible.
+		
+		Like many nations of the world, the time has come for Gujarat to pay a befitting tribute to the great men of its soil and immortalize their history. That’s the vision behind building the largest statue of the world to commemorate Sardar Vallabhbhai Patel. It is only in a structure of such enormity that we will be able get close to commemorating the Unity he achieved by winning over a disintegrated and scattered group of 565 princely states.
+
+In the words of Chief Minister Shri Narendra Modi, who announced this ambitious project on the eve of his decade-old tenure in the state government, the Statue of Unity would be one of a series of monuments to “perpetuate the contribution of great personalities”, others being the Mahatma Mandir in Gandhinagar, Shyamji Krishna Verma memorial in Kutch and the Buddha relics as well as the international conference on Buddhism.
+
+Furthermore, Shri Modi has said that the memorial will be a new chapter in the development of the tribal belt in the state as it will open employment opportunities for the local tribal youth and boost tourism in the state. The largest statue of the world would remind every onlooker not only of the freedom struggle but also of the story of a United India. It will be a constant inspiration towards fulfilling the dreams of suraaj (good governance).
+		
+		AN ICONIC 182METERS STATUE that’s a tribute to the Iron Man of India, is to be built at the Sadhu-Bet Island, approximately 3.5kms south of Sardar Sarovar Dam at Kevadia in the Narmada district of Gujarat. This inspiring memorial site, with a number of edu-tainment components, is between the Satpuda and Vindhyachal Ranges rising weir Narmada River, impounded by Garudeshwar, the Sardar  Sarovar Dam and the town of Kevadia. The majesty of this grand monument will be enhanced by a picturesque backdrop. Its unique location will prove to be beneficial for eco-tourism and regional development. 
+		
+		An ardent patriot who was determined to unite 562 princely states with the mainstream India after the British Raj came to an end.
+
+A great administrator who stabilized the volatile condition of a newly freed country.
+
+An illustrious man who led the path of unity and became an eternal icon for the entire nation.
+
+Since the memory of a man who personified the spirit of Indian union must be as inspiring as himself for all future generations, we are creating the STATUE OF UNITY- an eternal embodiment of the life, dreams and accomplishments of Sardar Vallabhbhai Patel, to evoke remembrance and inspiration in the most unique manner possible.
+		
+		Like many nations of the world, the time has come for Gujarat to pay a befitting tribute to the great men of its soil and immortalize their history. That’s the vision behind building the largest statue of the world to commemorate Sardar Vallabhbhai Patel. It is only in a structure of such enormity that we will be able get close to commemorating the Unity he achieved by winning over a disintegrated and scattered group of 565 princely states.
+
+In the words of Chief Minister Shri Narendra Modi, who announced this ambitious project on the eve of his decade-old tenure in the state government, the Statue of Unity would be one of a series of monuments to “perpetuate the contribution of great personalities”, others being the Mahatma Mandir in Gandhinagar, Shyamji Krishna Verma memorial in Kutch and the Buddha relics as well as the international conference on Buddhism.
+
+Furthermore, Shri Modi has said that the memorial will be a new chapter in the development of the tribal belt in the state as it will open employment opportunities for the local tribal youth and boost tourism in the state. The largest statue of the world would remind every onlooker not only of the freedom struggle but also of the story of a United India. It will be a constant inspiration towards fulfilling the dreams of suraaj (good governance).
+		
+		AN ICONIC 182METERS STATUE that’s a tribute to the Iron Man of India, is to be built at the Sadhu-Bet Island, approximately 3.5kms south of Sardar Sarovar Dam at Kevadia in the Narmada district of Gujarat. This inspiring memorial site, with a number of edu-tainment components, is between the Satpuda and Vindhyachal Ranges rising weir Narmada River, impounded by Garudeshwar, the Sardar  Sarovar Dam and the town of Kevadia. The majesty of this grand monument will be enhanced by a picturesque backdrop. Its unique location will prove to be beneficial for eco-tourism and regional development. 
+		
+		An ardent patriot who was determined to unite 562 princely states with the mainstream India after the British Raj came to an end.
+
+A great administrator who stabilized the volatile condition of a newly freed country.
+
+An illustrious man who led the path of unity and became an eternal icon for the entire nation.
+
+Since the memory of a man who personified the spirit of Indian union must be as inspiring as himself for all future generations, we are creating the STATUE OF UNITY- an eternal embodiment of the life, dreams and accomplishments of Sardar Vallabhbhai Patel, to evoke remembrance and inspiration in the most unique manner possible.
+		</p>
+	</div>
+  
+  </div>
+<!--  <!--  <p>
+  
+  Bacon ipsum dolor sit amet shankle sirloin jowl pork belly pork chop salami pig tail tri-tip tenderloin cow beef ribs venison kielbasa. Salami ham hock jerky turducken kielbasa sausage pastrami pork chop beef drumstick. Leberkas rump tri-tip, kielbasa pastrami biltong ground round short ribs turducken. Bacon pork ribeye, tail spare ribs tri-tip pancetta short ribs shoulder pork loin meatball. Fatback short ribs jerky, pancetta pork chop pork capicola boudin chicken biltong.
+
+Cow venison flank, strip steak leberkas pig drumstick corned beef pancetta frankfurter meatloaf beef. Venison pork turducken brisket ham corned beef drumstick. Pork belly ham hock ball tip, ham jowl andouille bresaola frankfurter turkey. Shank hamburger short loin capicola ball tip salami fatback pig venison jerky ribeye beef ribs pork. Chuck tail short loin, pork loin frankfurter pork chop tongue strip steak sausage tri-tip andouille drumstick meatloaf pancetta.
+
+Turkey chicken hamburger prosciutto, beef ribs brisket sirloin ground round meatball corned beef ribeye drumstick biltong pork chop swine. Tri-tip brisket pork belly frankfurter, doner rump pork loin pig meatball. T-bone shankle pork loin, biltong doner prosciutto rump ground round fatback. Biltong sausage short loin, bacon kielbasa prosciutto meatloaf pork tongue beef. Meatball ribeye turkey tongue brisket. Doner shankle drumstick andouille, ground round pork loin sausage hamburger boudin swine tongue salami tenderloin pancetta bacon. Meatloaf ground round andouille pork loin salami beef swine rump shoulder doner tongue jerky turducken frankfurter.
+
+Flank drumstick pig corned beef cow pork chop pastrami tri-tip. Beef ribs sirloin pancetta, pig pork chuck corned beef. Capicola turducken tail ground round. Bresaola shankle spare ribs turducken.
+
+Short loin biltong pork loin, spare ribs pork belly jowl tongue t-bone frankfurter shankle. Pig beef ribs turkey doner sausage, kielbasa cow. Sausage t-bone swine meatball, tri-tip pork belly boudin venison bresaola turducken jerky ham bacon. Pork belly short loin short ribs drumstick. Swine brisket drumstick sirloin capicola pork loin.
+
+Salami fatback turkey, doner pastrami pig jowl ham hock rump pancetta tongue tenderloin pork loin spare ribs. Swine ball tip fatback, sausage tri-tip capicola ham. Bacon beef tri-tip jowl strip steak pork loin pork chop kielbasa t-bone. Sausage filet mignon sirloin spare ribs shankle. Brisket rump ham, jowl pork loin shank sirloin pork chop shankle beef ribs. Shankle fatback brisket jerky pork, sausage short ribs swine shoulder beef ribs ham hock salami flank doner. Drumstick ground round rump ball tip, shank boudin filet mignon meatball turducken brisket pancetta short ribs ribeye prosciutto.
+
+Does your lorem ipsum text long for something a little meatier? Give our generator a try… it’s tasty!
+  
+  </p>
+  
+  
+  
+  
+  </div>
+  <div id="f2">
+  
+  <img src="image/90654.jpg" alt="jamesb" name="jamet" width="180" height="228" style="float:left; margin-right:13px; border-radius:25px;"
+  title="jamexz"/>
+  
+  <p>
+  Bacon ipsum dolor sit amet shankle sirloin jowl pork belly pork chop salami pig tail tri-tip tenderloin cow beef ribs venison kielbasa. Salami ham hock jerky turducken kielbasa sausage pastrami pork chop beef drumstick. Leberkas rump tri-tip, kielbasa pastrami biltong ground round short ribs turducken. Bacon pork ribeye, tail spare ribs tri-tip pancetta short ribs shoulder pork loin meatball. Fatback short ribs jerky, pancetta pork chop pork capicola boudin chicken biltong.
+
+Cow venison flank, strip steak leberkas pig drumstick corned beef pancetta frankfurter meatloaf beef. Venison pork turducken brisket ham corned beef drumstick. Pork belly ham hock ball tip, ham jowl andouille bresaola frankfurter turkey. Shank hamburger short loin capicola ball tip salami fatback pig venison jerky ribeye beef ribs pork. Chuck tail short loin, pork loin frankfurter pork chop tongue strip steak sausage tri-tip andouille drumstick meatloaf pancetta.
+
+Turkey chicken hamburger prosciutto, beef ribs brisket sirloin ground round meatball corned beef ribeye drumstick biltong pork chop swine. Tri-tip brisket pork belly frankfurter, doner rump pork loin pig meatball. T-bone shankle pork loin, biltong doner prosciutto rump ground round fatback. Biltong sausage short loin, bacon kielbasa prosciutto meatloaf pork tongue beef. Meatball ribeye turkey tongue brisket. Doner shankle drumstick andouille, ground round pork loin sausage hamburger boudin swine tongue salami tenderloin pancetta bacon. Meatloaf ground round andouille pork loin salami beef swine rump shoulder doner tongue jerky turducken frankfurter.
+
+Flank drumstick pig corned beef cow pork chop pastrami tri-tip. Beef ribs sirloin pancetta, pig pork chuck corned beef. Capicola turducken tail ground round. Bresaola shankle spare ribs turducken.
+
+Short loin biltong pork loin, spare ribs pork belly jowl tongue t-bone frankfurter shankle. Pig beef ribs turkey doner sausage, kielbasa cow. Sausage t-bone swine meatball, tri-tip pork belly boudin venison bresaola turducken jerky ham bacon. Pork belly short loin short ribs drumstick. Swine brisket drumstick sirloin capicola pork loin.
+
+Salami fatback turkey, doner pastrami pig jowl ham hock rump pancetta tongue tenderloin pork loin spare ribs. Swine ball tip fatback, sausage tri-tip capicola ham. Bacon beef tri-tip jowl strip steak pork loin pork chop kielbasa t-bone. Sausage filet mignon sirloin spare ribs shankle. Brisket rump ham, jowl pork loin shank sirloin pork chop shankle beef ribs. Shankle fatback brisket jerky pork, sausage short ribs swine shoulder beef ribs ham hock salami flank doner. Drumstick ground round rump ball tip, shank boudin filet mignon meatball turducken brisket pancetta short ribs ribeye prosciutto.
+
+Does your lorem ipsum text long for something a little meatier? Give our generator a try… it’s tasty!</p>
+  
+  
+  </div>
+  <div id="f3">
+    <img src="image/gfultimate.jpg" alt="jamesb" name="jamet" width="180" height="228" style="float:left; margin-right:13px; border-radius:25px;"
+  title="jamexz"/>
+  
+  <p>
+ Bacon ipsum dolor sit amet shankle sirloin jowl pork belly pork chop salami pig tail tri-tip tenderloin cow beef ribs venison kielbasa. Salami ham hock jerky turducken kielbasa sausage pastrami pork chop beef drumstick. Leberkas rump tri-tip, kielbasa pastrami biltong ground round short ribs turducken. Bacon pork ribeye, tail spare ribs tri-tip pancetta short ribs shoulder pork loin meatball. Fatback short ribs jerky, pancetta pork chop pork capicola boudin chicken biltong.
+
+Cow venison flank, strip steak leberkas pig drumstick corned beef pancetta frankfurter meatloaf beef. Venison pork turducken brisket ham corned beef drumstick. Pork belly ham hock ball tip, ham jowl andouille bresaola frankfurter turkey. Shank hamburger short loin capicola ball tip salami fatback pig venison jerky ribeye beef ribs pork. Chuck tail short loin, pork loin frankfurter pork chop tongue strip steak sausage tri-tip andouille drumstick meatloaf pancetta.
+
+Turkey chicken hamburger prosciutto, beef ribs brisket sirloin ground round meatball corned beef ribeye drumstick biltong pork chop swine. Tri-tip brisket pork belly frankfurter, doner rump pork loin pig meatball. T-bone shankle pork loin, biltong doner prosciutto rump ground round fatback. Biltong sausage short loin, bacon kielbasa prosciutto meatloaf pork tongue beef. Meatball ribeye turkey tongue brisket. Doner shankle drumstick andouille, ground round pork loin sausage hamburger boudin swine tongue salami tenderloin pancetta bacon. Meatloaf ground round andouille pork loin salami beef swine rump shoulder doner tongue jerky turducken frankfurter.
+
+Flank drumstick pig corned beef cow pork chop pastrami tri-tip. Beef ribs sirloin pancetta, pig pork chuck corned beef. Capicola turducken tail ground round. Bresaola shankle spare ribs turducken.
+
+Short loin biltong pork loin, spare ribs pork belly jowl tongue t-bone frankfurter shankle. Pig beef ribs turkey doner sausage, kielbasa cow. Sausage t-bone swine meatball, tri-tip pork belly boudin venison bresaola turducken jerky ham bacon. Pork belly short loin short ribs drumstick. Swine brisket drumstick sirloin capicola pork loin.
+
+Salami fatback turkey, doner pastrami pig jowl ham hock rump pancetta tongue tenderloin pork loin spare ribs. Swine ball tip fatback, sausage tri-tip capicola ham. Bacon beef tri-tip jowl strip steak pork loin pork chop kielbasa t-bone. Sausage filet mignon sirloin spare ribs shankle. Brisket rump ham, jowl pork loin shank sirloin pork chop shankle beef ribs. Shankle fatback brisket jerky pork, sausage short ribs swine shoulder beef ribs ham hock salami flank doner. Drumstick ground round rump ball tip, shank boudin filet mignon meatball turducken brisket pancetta short ribs ribeye prosciutto.
+
+Does your lorem ipsum text long for something a little meatier? Give our generator a try… it’s tasty! 
+  
+  </p>
+  
+  
+  </div> -->
+  <div id="widget1">
+  
+    <script type="text/javascript">
+// BeginOAWidget_Instance_2028523: #jQueryUIAccordion_2
+ $(function(){
+				// Accordion
+				$("#jQueryUIAccordion_2").accordion({ header: "h3",
+											animated: "slide",
+											event: "click",
+											collapsible : "false"
+											  });			
+				});
+			
+// EndOAWidget_Instance_2028523
+
+ <!--  <div id="f4">
+ 
+  
+  
+ 
+// BeginOAWidget_Instance_2028523: #jQueryUIAccordion
+ $(function(){
+				// Accordion
+				$("#jQueryUIAccordion").accordion({ header: "h3",
+											animated: "slide",
+											event: "click",
+											collapsible : "false"
+											  });			
+				});
+			
+// EndOAWidget_Instance_2028523
+
+  <!-- <div id="f8">
+  <img src="image/James Bond Live and let die.jpg" alt="jamesb" name="jamet" width="180" height="228" style="float:left; margin-right:13px; border-radius:25px;"
+  title="jamexz"/>
+  
+  <p>
+  Bacon ipsum dolor sit amet shankle sirloin jowl pork belly pork chop salami pig tail tri-tip tenderloin cow beef ribs venison kielbasa. Salami ham hock jerky turducken kielbasa sausage pastrami pork chop beef drumstick. Leberkas rump tri-tip, kielbasa pastrami biltong ground round short ribs turducken. Bacon pork ribeye, tail spare ribs tri-tip pancetta short ribs shoulder pork loin meatball. Fatback short ribs jerky, pancetta pork chop pork capicola boudin chicken biltong.
+
+Cow venison flank, strip steak leberkas pig drumstick corned beef pancetta frankfurter meatloaf beef. Venison pork turducken brisket ham corned beef drumstick. Pork belly ham hock ball tip, ham jowl andouille bresaola frankfurter turkey. Shank hamburger short loin capicola ball tip salami fatback pig venison jerky ribeye beef ribs pork. Chuck tail short loin, pork loin frankfurter pork chop tongue strip steak sausage tri-tip andouille drumstick meatloaf pancetta.
+
+Turkey chicken hamburger prosciutto, beef ribs brisket sirloin ground round meatball corned beef ribeye drumstick biltong pork chop swine. Tri-tip brisket pork belly frankfurter, doner rump pork loin pig meatball. T-bone shankle pork loin, biltong doner prosciutto rump ground round fatback. Biltong sausage short loin, bacon kielbasa prosciutto meatloaf pork tongue beef. Meatball ribeye turkey tongue brisket. Doner shankle drumstick andouille, ground round pork loin sausage hamburger boudin swine tongue salami tenderloin pancetta bacon. Meatloaf ground round andouille pork loin salami beef swine rump shoulder doner tongue jerky turducken frankfurter.
+
+Flank drumstick pig corned beef cow pork chop pastrami tri-tip. Beef ribs sirloin pancetta, pig pork chuck corned beef. Capicola turducken tail ground round. Bresaola shankle spare ribs turducken.
+
+Short loin biltong pork loin, spare ribs pork belly jowl tongue t-bone frankfurter shankle. Pig beef ribs turkey doner sausage, kielbasa cow. Sausage t-bone swine meatball, tri-tip pork belly boudin venison bresaola turducken jerky ham bacon. Pork belly short loin short ribs drumstick. Swine brisket drumstick sirloin capicola pork loin.
+
+Salami fatback turkey, doner pastrami pig jowl ham hock rump pancetta tongue tenderloin pork loin spare ribs. Swine ball tip fatback, sausage tri-tip capicola ham. Bacon beef tri-tip jowl strip steak pork loin pork chop kielbasa t-bone. Sausage filet mignon sirloin spare ribs shankle. Brisket rump ham, jowl pork loin shank sirloin pork chop shankle beef ribs. Shankle fatback brisket jerky pork, sausage short ribs swine shoulder beef ribs ham hock salami flank doner. Drumstick ground round rump ball tip, shank boudin filet mignon meatball turducken brisket pancetta short ribs ribeye prosciutto.
+
+Does your lorem ipsum text long for something a little meatier? Give our generator a try… it’s tasty!
+  
+  </p>
+  
+  </div> --> -->
+  
+  
+<div id="vid1">
+  
+  
+  <video width="320" height="240" controls poster="images/logo2.jpg">
+  <source src="video/movie.mp4" type="video/mp4">
+  <source src="audio/movie.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+</video>
+</div>
+  <div id="vid2">
+  
+<video width="320" height="240" controls poster="images/logo2.jpg">
+  <source src="video/movie.mp4" type="video/mp4">
+  <source src="audio/movie.ogg" type="video/ogg">
+  Your browser does not support the video tag.
+</video>
+  
+  </div>
+  
+  <div id="facebook">
+    <div id="OAWidget"></div>
+    <script type="text/javascript">
+// BeginOAWidget_Instance_2443523: #OAWidget
+
+document.body.className += " yui-skin-sam";
+YAHOO.namespace("widget.Calendar");
+
+YAHOO.init_OAWidget = function() {
+  var oCalendar_OAWidget = new YAHOO.widget.Calendar("oCalendar_OAWidget","OAWidget", 
+       {selected: "",
+        mindate: null,
+  			maxdate: null,
+  			title: "",
+        close: false,
+  			iframe: true,
+  			multi_select: false,
+  			navigator: false,
+  			show_weekdays: true,
+        locale_weekdays: "short",
+  			start_weekday: 0,
+  			show_week_header: false,
+  			show_week_footer: false,
+  			hide_blank_weeks: false }
+  );
+  oCalendar_OAWidget.render();
+}
+YAHOO.util.Event.onDOMReady(YAHOO.init_OAWidget);
+	
+// EndOAWidget_Instance_2443523
+    </script>
+  </div>
+  <div id="footer">
+    <div id="Address">
+ <h1> Address </h1>
+    <p> South Plainfield, New Jersey</p>
+    <p> USA, 07080 </p>
+    
+    
+    </div>
+    <div id="powerdby"> 
+    <h1> Site Navigation </h1>
+    
+    <ul> 
+    <li> <a href='index1.html'> Home </a> </li>
+    <li> <a href='history.html'> HISTORY </a> </li>
+    <li> <a href='vision.html'> VISION </a></li>
+    <li> <a href='project.html'>PROJECT</a> </li>
+    <li> <a href='about.html'> ABOUT ME</a></li>
+    
+    
+    
+    </ul>
+    
+    
+    </div>
+    <div id="arp">
+    
+    <h1> Contact AMIT</h1>
+    <p>patelarp1985@gmail.com</p>    
+    </div>
+  </div>
+</div>
+<!--end of gridcontainer-->
+</body>
+</html>
